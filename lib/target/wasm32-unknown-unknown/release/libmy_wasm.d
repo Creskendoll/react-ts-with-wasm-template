@@ -1,0 +1,1 @@
+/home/ken/Documents/RustStuff/wasm-react-starter/lib/target/wasm32-unknown-unknown/release/libmy_wasm.rlib: /home/ken/Documents/RustStuff/wasm-react-starter/lib/src/lib.rs /home/ken/Documents/RustStuff/wasm-react-starter/lib/src/utils.rs

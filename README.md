@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><code>Rust WASM With React Template</code></h1>
+  <h1><code>React Typescript With Rust WASM</code></h1>
 
 <strong>
 Boilerplate of a React TypeScript project that uses Rust WASM as a library. 

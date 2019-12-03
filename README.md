@@ -19,25 +19,31 @@ More information can be found at:
 </div>
 
 # About this boilerplate
+
 This is a React Typescript template that uses a Rust library to run web assembly. By building the Rust project you will be able to display an alert on the browser.
 
 ## Steps To Running This Project
-- Modify and build WASM. (Explained below)
+
+- Build WASM.
+
+```
+cd lib && wasm-pack build
+```
+
 - Modify the `src/types/my-wasm.ts` file such that it exports your functions and properties.
 - Run the project with `npm`.
-- Start hacking!
-
-(Below part is taken from the create-react-app README)
-## Available Scripts For React
-
-In the root directory, you can run:
 
 ```
 npm start
 ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Start hacking!
+
+(Below part is taken from the create-react-app README)
+
+## Available Scripts For React
+
+Open [http://localhost:3000](http://localhost:3000) to view the running project in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
@@ -62,6 +68,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Available Scripts For Rust WASM
+
 The Rust library was created using `cargo generate`. It is located under the `lib` folder. You have to re-build the project whenever you make a change to the code.
 
 (Below part is taken from the generated projects README)
@@ -94,16 +101,18 @@ wasm-pack test --headless --firefox
 ```
 wasm-pack publish
 ```
+
 ### 🔋 Batteries Included
 
-* [`wasm-bindgen`](https://github.com/rustwasm/wasm-bindgen) for communicating
+- [`wasm-bindgen`](https://github.com/rustwasm/wasm-bindgen) for communicating
   between WebAssembly and JavaScript.
-* [`console_error_panic_hook`](https://github.com/rustwasm/console_error_panic_hook)
+- [`console_error_panic_hook`](https://github.com/rustwasm/console_error_panic_hook)
   for logging panic messages to the developer console.
-* [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
+- [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
   for small code size.
 
 ## Learn More
+
 [Learn more about `cargo generate` here.](https://github.com/ashleygwilliams/cargo-generate)
 
 [Rustlings](https://github.com/rust-lang/rustlings) is a great source to learn Rust.
